@@ -1,0 +1,78 @@
+.revetements-template-default {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+.revetements-template-default body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.revetements-template-default .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.revetements-template-default .card img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  padding-right: 50px;
+}
+
+.revetements-template-default .card .description {
+  width: 50%;
+  padding: 20px;
+}
+
+.revetements-template-default .site-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.revetements-template-default .footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.revetements-template-default .site-info {
+  background-color: #444;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.revetements-template-default .site-info p {
+  margin: 0;
+}
+
+.revetements-template-default .product-image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.revetements-template-default .product-image img {
+  width: 100%;
+  height: 100%;
+}
